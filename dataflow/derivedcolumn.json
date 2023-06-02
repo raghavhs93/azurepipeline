@@ -122,7 +122,7 @@
 				"     errorHandlingOption: 'stopOnFirstError',",
 				"     mapColumn(",
 				"          ProductID,",
-				"          SalesOrderID = {salesoreder@SalesOrderID},",
+				"          SalesOrderID,",
 				"          CustomerID,",
 				"          OrderQty,",
 				"          UnitPrice,",
