@@ -1,0 +1,21 @@
+{
+	"name": "logdata_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datalake01997_pro1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Log.parquet",
+				"fileSystem": "parquet"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
